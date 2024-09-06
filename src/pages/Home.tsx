@@ -1,8 +1,11 @@
 import React from 'react'
+import NavBar from '../componenets/NavBar'
 
 function home() {
   return (
-    <div>home</div>
+    <div className='p-4'>
+      <NavBar />
+    </div>
   )
 }
 
